@@ -1,0 +1,10 @@
+{
+  "domain": "airthings_integration",
+  "name": "airthings-integration",
+  "documentation": "https://github.com/braibaud/airthings-integration",
+  "issue_tracker": "https://github.com/braibaud/airthings-integration/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@braibaud"],
+  "requirements": []
+}
