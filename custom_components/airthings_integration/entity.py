@@ -1,11 +1,12 @@
 """AirthingsIntegrationEntity class"""
-from typing import Any, Dict
-from homeassistant.helpers.update_coordinator import (
-    CoordinatorEntity,
-    DataUpdateCoordinator,
-)
+from typing import Any
+from typing import Dict
 
-from .const import ATTRIBUTION, DEVICE_BATTERY
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
+from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
+
+from .const import ATTRIBUTION
+from .const import DEVICE_BATTERY
 from .const import DOMAIN
 
 ata = __import__("airthings-api")

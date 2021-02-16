@@ -1,7 +1,7 @@
 """Sensor platform for airthings-integration."""
+from .const import DEVICE_BATTERY
 from .const import DOMAIN
 from .const import ICON
-from .const import DEVICE_BATTERY
 from .entity import AirthingsIntegrationEntity
 
 

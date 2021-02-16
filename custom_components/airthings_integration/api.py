@@ -1,8 +1,9 @@
 """Sample API Client."""
 import logging
+
 import aiohttp
 
-ata = __import__('airthings-api')
+ata = __import__("airthings-api")
 
 TIMEOUT = 10
 
@@ -17,6 +18,5 @@ class AirthingsIntegrationApiClient:
         self, username: str, password: str, session: aiohttp.ClientSession
     ) -> None:
         self.manager = ata.api.web.AirThingsManager(
-            username=username,
-            password=password,
-            session=session)
+            username=username, password=password, session=session
+        )

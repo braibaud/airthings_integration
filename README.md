@@ -19,9 +19,9 @@ please look at the [User Guide in the Cookiecutter documentation](https://cookie
 
 **This component will set up the following platforms.**
 
-| Platform        | Description                               |
-| --------------- | ----------------------------------------- |
-| `sensor`        | Show info from airthings-integration API. |
+| Platform | Description                               |
+| -------- | ----------------------------------------- |
+| `sensor` | Show info from airthings-integration API. |
 
 ![example][exampleimg]
 
