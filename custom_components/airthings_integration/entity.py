@@ -42,9 +42,17 @@ class AirthingsIntegrationEntity(CoordinatorEntity):
     @property
     def sensor_units(self) -> str:
         if self.sensor is None:
+            # Battery level
             return "%"
         else:
-            return self.sensor.provided_unit
+            units = self.sensor.provided_unit
+
+            if units == "c":
+                units = "°C"
+            elif units == "pct":
+                units = "%"
+
+            return units
 
     @property
     def device_unique_id(self) -> str:

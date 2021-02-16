@@ -1,1 +1,2 @@
 homeassistant
+airthings-api==0.1.4
