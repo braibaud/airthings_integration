@@ -2,6 +2,8 @@
 {
   "image": "ludeeus/container:integration-debian",
   "name": "airthings-integration integration development",
+  "workspaceMount": "type=bind,source=C:\\DEV\\airthings-integration,target=/workspaces/airthings-integration,consistency=cached",
+  "workspaceFolder": "/workspaces/airthings-integration",
   "context": "..",
   "appPort": ["9123:8123"],
   "postCreateCommand": "container install",

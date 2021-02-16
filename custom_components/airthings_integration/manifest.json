@@ -6,5 +6,8 @@
   "dependencies": [],
   "config_flow": true,
   "codeowners": ["@braibaud"],
-  "requirements": []
+  "version": "0.1.0",
+  "requirements": [
+    "airthings-api"
+  ]
 }

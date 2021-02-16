@@ -1,43 +1,43 @@
-"""Switch platform for airthings-integration."""
-from homeassistant.components.switch import SwitchEntity
+# """Switch platform for airthings-integration."""
+# from homeassistant.components.switch import SwitchEntity
 
-from .const import DEFAULT_NAME
-from .const import DOMAIN
-from .const import ICON
-from .const import SWITCH
-from .entity import AirthingsIntegrationEntity
-
-
-async def async_setup_entry(hass, entry, async_add_devices):
-    """Setup sensor platform."""
-    coordinator = hass.data[DOMAIN][entry.entry_id]
-    async_add_devices([AirthingsIntegrationBinarySwitch(coordinator, entry)])
+# from .const import DEFAULT_NAME
+# from .const import DOMAIN
+# from .const import ICON
+# from .const import SWITCH
+# from .entity import AirthingsIntegrationEntity
 
 
-class AirthingsIntegrationBinarySwitch(AirthingsIntegrationEntity, SwitchEntity):
-    """airthings_integration switch class."""
+# async def async_setup_entry(hass, entry, async_add_devices):
+#     """Setup sensor platform."""
+#     coordinator = hass.data[DOMAIN][entry.entry_id]
+#     async_add_devices([AirthingsIntegrationBinarySwitch(coordinator, entry)])
 
-    async def async_turn_on(self, **kwargs):  # pylint: disable=unused-argument
-        """Turn on the switch."""
-        await self.coordinator.api.async_set_title("bar")
-        await self.coordinator.async_request_refresh()
 
-    async def async_turn_off(self, **kwargs):  # pylint: disable=unused-argument
-        """Turn off the switch."""
-        await self.coordinator.api.async_set_title("foo")
-        await self.coordinator.async_request_refresh()
+# class AirthingsIntegrationBinarySwitch(AirthingsIntegrationEntity, SwitchEntity):
+#     """airthings_integration switch class."""
 
-    @property
-    def name(self):
-        """Return the name of the switch."""
-        return f"{DEFAULT_NAME}_{SWITCH}"
+#     async def async_turn_on(self, **kwargs):  # pylint: disable=unused-argument
+#         """Turn on the switch."""
+#         await self.coordinator.api.async_set_title("bar")
+#         await self.coordinator.async_request_refresh()
 
-    @property
-    def icon(self):
-        """Return the icon of this switch."""
-        return ICON
+#     async def async_turn_off(self, **kwargs):  # pylint: disable=unused-argument
+#         """Turn off the switch."""
+#         await self.coordinator.api.async_set_title("foo")
+#         await self.coordinator.async_request_refresh()
 
-    @property
-    def is_on(self):
-        """Return true if the switch is on."""
-        return self.coordinator.data.get("title", "") == "foo"
+#     @property
+#     def name(self):
+#         """Return the name of the switch."""
+#         return f"{DEFAULT_NAME}_{SWITCH}"
+
+#     @property
+#     def icon(self):
+#         """Return the icon of this switch."""
+#         return ICON
+
+#     @property
+#     def is_on(self):
+#         """Return true if the switch is on."""
+#         return self.coordinator.data.get("title", "") == "foo"
