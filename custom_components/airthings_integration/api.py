@@ -1,10 +1,6 @@
 """Sample API Client."""
-import asyncio
 import logging
-import socket
-
 import aiohttp
-import async_timeout
 
 ata = __import__('airthings-api')
 

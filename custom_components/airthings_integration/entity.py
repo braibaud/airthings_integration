@@ -7,8 +7,6 @@ from homeassistant.helpers.update_coordinator import (
 
 from .const import ATTRIBUTION, DEVICE_BATTERY
 from .const import DOMAIN
-from .const import NAME
-from .const import VERSION
 
 ata = __import__("airthings-api")
 
