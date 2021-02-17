@@ -14,14 +14,11 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-**TO BE REMOVED: If you need help, as a developer, to use this custom component tempalte,
-please look at the [User Guide in the Cookiecutter documentation](https://cookiecutter-homeassistant-custom-component.readthedocs.io/en/stable/quickstart.html)**
-
 **This component will set up the following platforms.**
 
-| Platform | Description                               |
-| -------- | ----------------------------------------- |
-| `sensor` | Show info from airthings_integration API. |
+| Platform | Description                                                                                     |
+| -------- | ----------------------------------------------------------------------------------------------- |
+| `sensor` | Show information from the sensors of your `AirThings ` devices connected to an `AirThings Hub`. |
 
 ![example][exampleimg]
 
@@ -41,23 +38,16 @@ Using your HA configuration directory (folder) as a starting point you should no
 custom_components/airthings_integration/translations/en.json
 custom_components/airthings_integration/translations/fr.json
 custom_components/airthings_integration/translations/nb.json
-custom_components/airthings_integration/translations/sensor.en.json
-custom_components/airthings_integration/translations/sensor.fr.json
-custom_components/airthings_integration/translations/sensor.nb.json
-custom_components/airthings_integration/translations/sensor.nb.json
 custom_components/airthings_integration/__init__.py
 custom_components/airthings_integration/api.py
-custom_components/airthings_integration/binary_sensor.py
 custom_components/airthings_integration/config_flow.py
 custom_components/airthings_integration/const.py
+custom_components/airthings_integration/entity.py
 custom_components/airthings_integration/manifest.json
 custom_components/airthings_integration/sensor.py
-custom_components/airthings_integration/switch.py
 ```
 
 ## Configuration is done in the UI
-
-<!---->
 
 ## Contributions are welcome!
 
