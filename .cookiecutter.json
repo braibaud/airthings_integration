@@ -2,9 +2,9 @@
   "_template": "gh:oncleben31/cookiecutter-homeassistant-custom-component",
   "class_name_prefix": "AirthingsIntegration",
   "domain_name": "airthings_integration",
-  "friendly_name": "airthings-integration",
+  "friendly_name": "airthings_integration",
   "github_user": "braibaud",
-  "project_name": "airthings-integration",
+  "project_name": "airthings_integration",
   "test_suite": "yes",
   "version": "0.1.0"
 }

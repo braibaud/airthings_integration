@@ -1,4 +1,4 @@
-"""Test airthings-integration config flow."""
+"""Test airthings_integration config flow."""
 from unittest.mock import patch
 
 import pytest

@@ -1,4 +1,4 @@
-"""Adds config flow for airthings-integration."""
+"""Adds config flow for airthings_integration."""
 import voluptuous as vol
 from homeassistant import config_entries
 from homeassistant.core import callback

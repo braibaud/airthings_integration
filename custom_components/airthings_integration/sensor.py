@@ -1,4 +1,4 @@
-"""Sensor platform for airthings-integration."""
+"""Sensor platform for airthings_integration."""
 from .const import DEVICE_BATTERY
 from .const import DOMAIN
 from .const import ICON

@@ -1,4 +1,4 @@
-"""Constants for airthings-integration tests."""
+"""Constants for airthings_integration tests."""
 import os
 
 VALID_CONFIG = {

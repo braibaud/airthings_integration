@@ -1,1 +1,1 @@
-"""Tests for airthings-integration integration."""
+"""Tests for airthings_integration integration."""

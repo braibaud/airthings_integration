@@ -1,8 +1,8 @@
 """
-Custom integration to integrate airthings-integration with Home Assistant.
+Custom integration to integrate airthings_integration with Home Assistant.
 
 For more details about this integration, please refer to
-https://github.com/braibaud/airthings-integration
+https://github.com/braibaud/airthings_integration
 """
 import asyncio
 import logging

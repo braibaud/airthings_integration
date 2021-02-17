@@ -1,12 +1,12 @@
-"""Constants for airthings-integration."""
+"""Constants for airthings_integration."""
 # Base component constants
-NAME = "airthings-integration"
+NAME = "airthings_integration"
 DOMAIN = "airthings_integration"
 DOMAIN_DATA = f"{DOMAIN}_data"
 VERSION = "0.1.0"
 
 ATTRIBUTION = "Data provided by *** AirThings ***"
-ISSUE_URL = "https://github.com/braibaud/airthings-integration/issues"
+ISSUE_URL = "https://github.com/braibaud/airthings_integration/issues"
 
 # Icons
 ICON = "mdi:format-quote-close"

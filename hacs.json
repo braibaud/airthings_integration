@@ -1,5 +1,5 @@
 {
-  "name": "airthings-integration",
+  "name": "airthings_integration",
   "hacs": "1.6.0",
   "domains": ["sensor"],
   "iot_class": "Cloud Polling",

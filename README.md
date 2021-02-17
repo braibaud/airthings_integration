@@ -1,4 +1,4 @@
-# airthings-integration
+# airthings_integration
 
 [![GitHub Release][releases-shield]][releases]
 [![GitHub Activity][commits-shield]][commits]
@@ -21,7 +21,7 @@ please look at the [User Guide in the Cookiecutter documentation](https://cookie
 
 | Platform | Description                               |
 | -------- | ----------------------------------------- |
-| `sensor` | Show info from airthings-integration API. |
+| `sensor` | Show info from airthings_integration API. |
 
 ![example][exampleimg]
 
@@ -33,7 +33,7 @@ please look at the [User Guide in the Cookiecutter documentation](https://cookie
 4. Download _all_ the files from the `custom_components/airthings_integration/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Restart Home Assistant
-7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "airthings-integration"
+7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "airthings_integration"
 
 Using your HA configuration directory (folder) as a starting point you should now also have this:
 
@@ -76,8 +76,8 @@ Code template was mainly taken from [@Ludeeus](https://github.com/ludeeus)'s [in
 [black-shield]: https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge
 [buymecoffee]: https://www.buymeacoffee.com/braibaud
 [buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=for-the-badge
-[commits-shield]: https://img.shields.io/github/commit-activity/y/braibaud/airthings-integration.svg?style=for-the-badge
-[commits]: https://github.com/braibaud/airthings-integration/commits/main
+[commits-shield]: https://img.shields.io/github/commit-activity/y/braibaud/airthings_integration.svg?style=for-the-badge
+[commits]: https://github.com/braibaud/airthings_integration/commits/main
 [hacs]: https://hacs.xyz
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
 [discord]: https://discord.gg/Qa5fW2R
@@ -85,10 +85,10 @@ Code template was mainly taken from [@Ludeeus](https://github.com/ludeeus)'s [in
 [exampleimg]: example.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/braibaud/airthings-integration.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/braibaud/airthings_integration.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-%40braibaud-blue.svg?style=for-the-badge
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/braibaud/airthings-integration.svg?style=for-the-badge
-[releases]: https://github.com/braibaud/airthings-integration/releases
+[releases-shield]: https://img.shields.io/github/release/braibaud/airthings_integration.svg?style=for-the-badge
+[releases]: https://github.com/braibaud/airthings_integration/releases
 [user_profile]: https://github.com/braibaud

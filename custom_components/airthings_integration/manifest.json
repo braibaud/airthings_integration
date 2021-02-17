@@ -1,8 +1,8 @@
 {
   "domain": "airthings_integration",
-  "name": "airthings-integration",
-  "documentation": "https://github.com/braibaud/airthings-integration",
-  "issue_tracker": "https://github.com/braibaud/airthings-integration/issues",
+  "name": "airthings_integration",
+  "documentation": "https://github.com/braibaud/airthings_integration",
+  "issue_tracker": "https://github.com/braibaud/airthings_integration/issues",
   "dependencies": [],
   "config_flow": true,
   "codeowners": ["@braibaud"],

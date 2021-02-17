@@ -1,4 +1,4 @@
-"""Tests for airthings-integration api."""
+"""Tests for airthings_integration api."""
 import os
 
 from custom_components.airthings_integration.api import AirthingsIntegrationApiClient

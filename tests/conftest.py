@@ -1,4 +1,4 @@
-"""Global fixtures for airthings-integration integration."""
+"""Global fixtures for airthings_integration integration."""
 from unittest.mock import patch
 
 import pytest

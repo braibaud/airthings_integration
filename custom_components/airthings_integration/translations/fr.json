@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "airthings-integration",
-        "description": "Si vous avez besoin d'aide pour la configuration, regardez ici: https://github.com/braibaud/airthings-integration",
+        "title": "airthings_integration",
+        "description": "Si vous avez besoin d'aide pour la configuration, regardez ici: https://github.com/braibaud/airthings_integration",
         "data": {
           "username": "Identifiant",
           "password": "Mot de Passe"
