@@ -61,14 +61,11 @@ class AirthingsIntegrationFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
 
     async def _test_credentials(self, username, password):
         """Return true if credentials is valid."""
-        try:
-            session = async_create_clientsession(self.hass)
-            client = AirthingsIntegrationApiClient(username, password, session)
-            success = await client.manager.validate_credentials()
-            return success
-        except Exception:  # pylint: disable=broad-except
-            pass
-        return False
+        return await AirthingsIntegrationApiClient(
+            username=username,
+            password=password,
+            session=async_create_clientsession(self.hass),
+        ).manager.validate_credentials()
 
 
 class AirthingsIntegrationOptionsFlowHandler(config_entries.OptionsFlow):
