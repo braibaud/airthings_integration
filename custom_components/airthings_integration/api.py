@@ -1,16 +1,12 @@
 """Sample API Client."""
-import logging
-
+# import logging
 import aiohttp
 
 ata = __import__("airthings-api")
 
-TIMEOUT = 10
-
-
-_LOGGER: logging.Logger = logging.getLogger(__package__)
-
-HEADERS = {"Content-type": "application/json; charset=UTF-8"}
+# TIMEOUT = 10
+# _LOGGER: logging.Logger = logging.getLogger(__package__)
+# HEADERS = {"Content-type": "application/json; charset=UTF-8"}
 
 
 class AirthingsIntegrationApiClient:

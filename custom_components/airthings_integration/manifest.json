@@ -1,6 +1,6 @@
 {
   "domain": "airthings_integration",
-  "name": "airthings_integration",
+  "name": "AirThings Hub",
   "documentation": "https://github.com/braibaud/airthings_integration",
   "issue_tracker": "https://github.com/braibaud/airthings_integration/issues",
   "dependencies": [],
