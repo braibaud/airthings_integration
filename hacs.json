@@ -1,8 +1,10 @@
 {
-  "domain": "airthings",
+  "domain": "airthings_integration",
   "name": "airthings_integration",
+  "documentation": "https://github.com/braibaud/airthings_integration",
+  "issue_tracker": "https://github.com/braibaud/airthings_integration/issues",
+  "codeowners": ["@braibaud"],
   "hacs": "1.6.0",
-  "domains": ["sensor"],
-  "iot_class": "Cloud Polling",
+  "iot_class": "cloud_polling",
   "homeassistant": "0.118.0"
 }
