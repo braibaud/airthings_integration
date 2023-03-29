@@ -1,6 +1,6 @@
 pip==23.0.1
 pre-commit==2.19.0
-black==23.1.0
+black==23.3.0
 flake8==4.0.1
 reorder-python-imports==3.9.0
 airthings-api==0.1.5
